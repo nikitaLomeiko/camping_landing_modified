@@ -2,7 +2,7 @@
     <header :id="id"
             class="foxy-header">
         <BackgroundPromo :faded="false"/>
-
+        
         <!-- Content -->
         <div class="container-xxl">
             <article class="foxy-hero-header">
@@ -17,6 +17,7 @@
                     v-html="parsedTitle"/>
                 <h4 class="subheading"
                     v-html="parsedSubtitle"/>
+                <p class="head-label" v-html="label"/>
 
                 <!-- Button -->
                 <Link v-if="showButton"
@@ -44,6 +45,10 @@ const props = defineProps({
     id: String,
     title: String,
     subtitle: String,
+    label: {
+        type: String,
+        required: false  
+    },
     logoUrl: String,
     showButton: Boolean,
     buttonLabel: String,
@@ -116,6 +121,16 @@ header.foxy-header {
 
         font-size: clamp(16px, calc(var(--logo-proportion)/14), 100px);
         padding: calc(var(--logo-proportion)/20) 0;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    p.head-label{
+        font-family: $font-family-base;
+        color: $light-5;
+
+        font-size: clamp(12px, calc(var(--logo-proportion)/18), 100px);
+        padding: calc(var(--logo-proportion)/60) 0;
         line-height: 24px;
         text-align: center;
     }

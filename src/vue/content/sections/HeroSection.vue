@@ -1,12 +1,13 @@
 <template>
     <!-- Heading Section -->
     <PageHeader :id="props.id"
-                title="*Foxy* Landing Page"
-                subtitle="An agency template by <strong>Ryan Balieiro</strong> – made with <strong>Vue3</strong> and <strong>Bootstrap 5</strong>"
-                logo-url="images/logo/agency-logo.png"
+                title="*Кэмпинг* для всей семьи"
+                subtitle="Успей арендовать <strong>кемпинг</strong> для себя и для своей <strong>семьи</strong>"
+                label="и встречай рассвет у реки"
+                logo-url="images/logo/camping-logo.png"
                 :show-button="true"
                 button-icon="fa-solid fa-search"
-                button-label="Find Out More"
+                button-label="Дальше"
                 button-url="#about"/>
 </template>
 

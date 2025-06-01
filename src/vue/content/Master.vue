@@ -1,6 +1,6 @@
 <template>
   <!-- Navigation -->
-  <Navigation logo="images/logo/agency-logo-small.png" label="*Foxy* Template" />
+  <Navigation logo="images/logo/camping-logo.png" label="*Кэмпинг* чемпион" />
 
   <!-- Content Display -->
   <router-view />
