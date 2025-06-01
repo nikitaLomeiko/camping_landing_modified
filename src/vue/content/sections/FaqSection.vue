@@ -22,15 +22,6 @@
                                  answer="To add a new section to the theme, start by creating a <b>Vue component</b> in the <i>sections</i> folder. Use the existing components as a guide to keep the design and functionality consistent. Inside the new component, define the necessary data like <b>texts, links, and other content</b>. Once you've set everything up, your new section should seamlessly integrate into the theme."/>
             </ArticleFaq>
         </PageSectionContent>
-
-        <!-- Footer -->
-        <PageSectionFooter title="*Save time* with Foxy!"
-                           description="Foxy beautifully and intuitively extends the Vue and Bootstrap frameworks making it easy to build your next project!"
-                           :include-divider="true"
-                           :description-text-class="`text-3`"
-                           button-label="Download Now!"
-                           button-fa-icon="fa-solid fa-download"
-                           button-url="https://github.com/ryanbalieiro/vue-agency-landing-page-template"/>
     </PageSection>
 </template>
 
@@ -38,7 +29,6 @@
 import PageSection from "/src/vue/components/layout/PageSection.vue"
 import PageSectionHeader from "/src/vue/components/layout/PageSectionHeader.vue"
 import PageSectionContent from "/src/vue/components/layout/PageSectionContent.vue"
-import PageSectionFooter from "/src/vue/components/layout/PageSectionFooter.vue"
 import ArticleFaq from "/src/vue/components/articles/ArticleFaq.vue"
 import ItemFaqQuestion from "/src/vue/components/articles/items/ItemFaqQuestion.vue"
 
