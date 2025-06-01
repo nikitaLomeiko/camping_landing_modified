@@ -17,7 +17,7 @@ const MAP = {
     "message": "Message",
     "name": "Name",
     "project_available_here": "<strong>@{title}</strong> is available on the following platforms or services:",
-    "send": "Send Message",
+    "send": "Связаться",
     "sending_message": "Sending Message...",
     "subject": "Subject",
     "tags": "Tags:",
